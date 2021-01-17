@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://jeremyljl.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Jan 2021 21:09:23 -0800</lastBuildDate><atom:link href="https://jeremyljl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lc_42</title>
+      <link>https://jeremyljl.github.io/post/lc_42/</link>
+      <pubDate>Sat, 16 Jan 2021 21:09:23 -0800</pubDate>
+      
+      <guid>https://jeremyljl.github.io/post/lc_42/</guid>
+      <description>Trapping Rain Water Main concept  找到左右两边最高点 以每个slot为单元记录这个单元的存水量 该单元存水量 = 此时最近的最低点 - 该单元高度 随时更新最近最低点   code class Solution { public int trap(int[] height) { int res = 0; if (height == null || height.length == 0) { return 0; } //find highest  int highLeft = 0; for(int i = 0; i &amp;lt; height.length; i++) { if (height[i] &amp;gt; height[highLeft]) { highLeft = i; } } int highRight = 0; for(int i = height.</description>
+    </item>
+    
+  </channel>
+</rss>
